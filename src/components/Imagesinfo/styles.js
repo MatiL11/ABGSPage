@@ -6,20 +6,13 @@ export const InfoBarContainer = styled.div`
   background-color: #fff;
   font-family: "Poppins", sans-serif;
   padding: 0 2rem;
-  border-bottom: 1px solid #000;
+  background-color: #103abc;
+  color: #fff;
   text-align: center;
-
-  h1 {
-    font-size: 3rem;
-    font-weight: 600;
-    text-align: center;
-    margin: 0 1rem;
-  }
-  li {
-    list-style: none;
-  }
 `;
 
-export const BodyInfo = styled.div`
-  padding: 0 2rem;
+export const ImagesInfo = styled.img`
+  width: 50%;
+  height: 50%;
+  margin: 0 1rem;
 `;
